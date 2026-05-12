@@ -5,6 +5,7 @@ cd torch-tutorials
 
 uv init --python 3.12
 uv venv
+source .venv/bin/activate
 
 uv pip install torch=="2.2.0" torchvision torchaudio
 uv add "numpy<2"
